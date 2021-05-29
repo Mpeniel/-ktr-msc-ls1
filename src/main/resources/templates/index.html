@@ -1,0 +1,83 @@
+<html class="has-background-info">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/c06ab4face.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Profile</title>
+</head>
+<body>
+
+
+<div class="tile is-ancestor" style="height: 50vh; margin-top: 25vh;margin-right: 10vh;margin-left: 10vh;">
+    <div class="col">
+    <a href="/logout" class="button row">Log out</a>
+    <a href="/library" class="button row">Library</a></div>
+    <div class="tile is-parent">
+        <div class="tile is-child bloc-information-client box">
+            <div class="tile is-parent">
+                <span class="title is-size-4 has-text-centered">Create a profile</span>
+            </div>
+            <div class="tile is-parent">
+                <div class="tile is-child">
+                    <div class="field">
+                        <label>Name :</label>
+                        <p class="control has-icons-right">
+                            <input class="input name" type="text" placeholder="Enter your name"/>
+                            <span class="icon is-small is-right">
+                                <i class="far fa-user"></i>
+                              </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tile is-child is-1"></div>
+                <div class="tile is-child">
+                    <div class="field">
+                        <label>Company name :</label>
+                        <p class="control has-icons-right">
+                            <input class="input company-name" type="text" placeholder="Enter your company name"/>
+                            <span class="icon is-small is-right">
+                                <i class="far fa-user"></i>
+                              </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile is-parent">
+                <div class="tile is-child">
+                    <div class="field">
+                        <label>Email :</label>
+                        <p class="control has-icons-right">
+                            <input class="input email" type="email" placeholder="Enter your email"/>
+                            <span class="icon is-small is-right">
+                                <i class="far fa-envelope"></i>
+                              </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tile is-child is-1"></div>
+                <div class="tile is-child">
+                    <div class="field">
+                        <label>Telephone</label>
+                        <p class="control has-icons-right">
+                            <input class="input phone" type="text" placeholder="telephone" />
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-phone"></i>
+                              </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="button is-info is-pulled-right" id="create">Create</a>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
